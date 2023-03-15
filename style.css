@@ -144,3 +144,64 @@ body{
     color: var(--cor-secundario);
     text-align: center;
 }
+
+
+@media (max-width: 1000px){
+    .container{
+        height: 100vh;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .principal{
+        background-image: none;
+        background-repeat: no-repeat;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container__box{
+        margin: 2em 2em;
+    }
+
+    .secundario__imagem{
+        width: 100%;
+    }
+
+    .container__descricao__titulo{
+        margin: auto;
+    }
+
+    .secundario{
+        align-items: center;
+        margin: 0%;  
+    }
+
+    .botaoTerciario{
+        display: block;
+        text-align: center;
+    }
+
+    .dispositivos__lista{
+        display: block;
+        margin: 0;
+        padding-inline-start: 0%;
+    }
+
+    .rodape__img{
+        margin: 0%;
+    }
+
+    .rodape__lista{
+        display: block;
+        justify-content: center;
+        list-style-type: none;
+        text-align: center;
+        padding: 0%;
+        gap: 16px;
+        color: var(--cor-principal)
+    }
+
+
+}
